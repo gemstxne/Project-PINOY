@@ -1,0 +1,211 @@
+/* Variables for easy color changes */
+:root {
+    --color-primary-blue: #2c4c83; /* buttons/text */
+    --color-secondary-blue: #6d8dbf; /* backgrounds */
+    --color-light-blue: #e3ebf8; /* cards/backgrounds */
+    --color-white: #ffffff;
+    --color-dark-text: #333333;
+    --color-light-text: #f0f0f0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--color-white);
+    color: var(--color-dark-text);
+    min-width: 1000px; /* To better simulate the desktop layout */
+}
+
+/* --- Navigation Bar Styling --- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: var(--color-white);
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+.nav-left, .nav-center, .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.placeholder-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.plus-icon {
+    background-color: var(--color-primary-blue);
+    color: var(--color-white);
+    font-size: 20px;
+}
+
+.nav-center a {
+    text-decoration: none;
+    color: var(--color-dark-text);
+    padding: 5px 15px;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.nav-center .active {
+    border-bottom: 3px solid var(--color-primary-blue);
+    padding-bottom: 2px;
+    font-weight: 600;
+}
+
+.log-in, .sign-up {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.log-in {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    color: var(--color-dark-text);
+}
+
+.sign-up {
+    background-color: var(--color-primary-blue);
+    color: var(--color-white);
+}
+
+/* --- Hero Banner Styling --- */
+.banner {
+    background: linear-gradient(135deg, #446fa3 0%, #6d8dbf 100%);
+    position: relative;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    overflow: hidden;
+}
+
+.banner-content {
+    color: var(--color-light-text);
+    max-width: 50%;
+    z-index: 10;
+}
+
+.logo-placeholder {
+    font-size: 22px;
+    font-weight: 900;
+    /* Placeholder for the Logo */
+}
+
+.project-name { 
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.project-info {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    max-width: 400px;
+}
+
+.read-more {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--color-white);
+    color: var(--color-primary-blue);
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.art-placeholder {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    width: 450px; /* Approximate width of the character art */
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+/* --- Main Content Layout --- */
+.main-content {
+    display: flex;
+    max-width: 1300px;
+    margin: 40px auto;
+    padding: 0 50px;
+}
+
+/* --- Side Info Section Styling --- */
+
+.info-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-card {
+    background-color: var(--color-light-blue);
+    border-radius: 15px;
+    width: 500px;
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    position: relative;
+    z-index: 5;
+}
+
+.info-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.info-text h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.info-text p {
+    font-size: 12px;
+    color: #000000;
+}
+
+.info-card.inte {
+    background-color: #758df8; /* Integrity color */
+}
+
+.info-card.trans {
+    background-color: #e2e2e2; /* transparency color */
+}
+
+.info-card.acc {
+    background-color: #ff4141; /* Accountability color */
+}
