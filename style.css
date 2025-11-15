@@ -42,7 +42,7 @@ body {
 }
 
 .plus-icon {
-    background-color: #2c4c83;
+    background-color: #c50000;
     color: #ffffff;
     font-size: 20px;
 }
@@ -77,7 +77,7 @@ body {
 
 .log-in {
     background-color: transparent;
-    border: 1px solid #ccc;
+    border: 1px solid #c50000;
     color: #333333;
 }
 
@@ -88,7 +88,7 @@ body {
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #2c4c83; 
+    background-color: #c50000; 
     transition: width 0.3s ease-out;
     z-index: -1; 
 }
@@ -98,12 +98,12 @@ body {
 }
 .log-in:hover {
     color: #ffffff; 
-    border-color: #2c4c83;
+    border-color: #c50000;
 }
 
 
 .sign-up {
-    background-color: #2c4c83;
+    background-color: #c50000;
     color: #ffffff;
 }
 
@@ -123,11 +123,11 @@ body {
     width: 100%;
 }
 .sign-up:hover {
-    color: #2c4c83;
+    color: #c50000;
 }
 
 .banner {
-    background: linear-gradient(135deg, #446fa3 0%, #6d8dbf 100%);
+    background: linear-gradient(135deg, #a13535 0%, #ca3535 100%);
     position: relative;
     height: 400px;
     display: flex;
@@ -166,7 +166,7 @@ body {
     border: none;
     border-radius: 20px;
     background-color: white;
-    color: #2c4c83;
+    color: #c50000;
     font-weight: 600;
     cursor: pointer;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -234,11 +234,11 @@ body {
 }
 
 .info-card.inte {
-    background-color: #758df8; /* integrity color */
+    background-color: #ff4141; /* integrity color */
 }
 
 .info-card.trans {
-    background-color: #e2e2e2; /* transparency color */
+    background-color: #ff4141; /* transparency color */
 }
 
 .info-card.acc {
