@@ -17,12 +17,12 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px;
-    background-color: white;
+    background-color: #F2F1ED;
     border-bottom: 1px solid #eee;
     font-size: 14px;
 }
 
-.nav-left, .nav-center, .nav-right {
+.nav-left, .nav-center{
     display: flex;
     align-items: center;
 }
@@ -32,7 +32,7 @@ body {
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background-color: #f0f0f0;
+    background-color: #b3b3b3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@ body {
 }
 
 .plus-icon {
-    background-color: #c50000;
+    background-color: #710014;
     color: #ffffff;
     font-size: 20px;
 }
@@ -57,77 +57,15 @@ body {
 }
 
 .nav-center a:hover {
-    border-bottom: 3px solid #2c4c83;
+    border-bottom: 3px solid #710014;
     padding-bottom: 2px;
     font-weight: 600;
 }
 
-.log-in, .sign-up {
-    padding: 8px 15px;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    font-weight: 600;
-    margin-left: 10px;
-    position: relative; 
-    overflow: hidden; 
-    z-index: 1; 
-    transition: color 0.3s ease-out; 
-}
 
-.log-in {
-    background-color: transparent;
-    border: 1px solid #c50000;
-    color: #333333;
-}
-
-.log-in::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background-color: #c50000; 
-    transition: width 0.3s ease-out;
-    z-index: -1; 
-}
-
-.log-in:hover::before {
-    width: 100%; 
-}
-.log-in:hover {
-    color: #ffffff; 
-    border-color: #c50000;
-}
-
-
-.sign-up {
-    background-color: #c50000;
-    color: #ffffff;
-}
-
-.sign-up::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background-color: #ffffff; 
-    transition: width 0.3s ease-out;
-    z-index: -1;
-}
-
-.sign-up:hover::before {
-    width: 100%;
-}
-.sign-up:hover {
-    color: #c50000;
-}
 
 .banner {
-    background: linear-gradient(135deg, #a13535 0%, #ca3535 100%);
+    background: linear-gradient(135deg, #710014 0%, #ca3535 100%);
     position: relative;
     height: 400px;
     display: flex;
@@ -165,8 +103,8 @@ body {
     padding: 10px 25px;
     border: none;
     border-radius: 20px;
-    background-color: white;
-    color: #c50000;
+    background-color: #F2F1ED;
+    color: #710014;
     font-weight: 600;
     cursor: pointer;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -214,7 +152,7 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 10px;
-    background-color: white;
+    background-color: #F2F1ED;
     display: flex;
     justify-content: center;
     align-items: center;
